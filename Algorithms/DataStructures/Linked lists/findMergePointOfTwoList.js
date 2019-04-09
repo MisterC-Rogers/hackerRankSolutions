@@ -8,7 +8,7 @@ function findMergeNode(headA, headB) {
                 headA_curr = headA_curr.next;
             }
     
-            if(headB_curr.next == null){
+            if(headB_curr.next === null){
                 headB_curr = headA;
             }else{
                 headB_curr = headB_curr.next;
