@@ -6,7 +6,7 @@ function arrayManipulation(n, queries) {
       
   for (let i = queries.length; i--> 0;) {
     let [a, b, k] = queries[i]
- 
+
     if (r[--a]){
       r[a] += k
     }
