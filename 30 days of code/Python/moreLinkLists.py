@@ -43,4 +43,4 @@ for i in range(T):
     data=int(input())
     head=mylist.insert(head,data)    
 head=mylist.removeDuplicates(head)
-mylist.display(head); 
+mylist.display(head)
