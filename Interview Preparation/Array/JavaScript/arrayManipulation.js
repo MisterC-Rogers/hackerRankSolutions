@@ -46,7 +46,7 @@ function arrayManipulation(n, queries) {
         m = t
     } 
   }
-  
+  console.log(m)
   return m
 
 }
