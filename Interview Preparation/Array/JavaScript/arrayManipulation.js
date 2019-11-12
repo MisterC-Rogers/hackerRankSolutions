@@ -50,3 +50,7 @@ function arrayManipulation(n, queries) {
   return m
 
 }
+arrayManipulation(5,
+  [[1,2,100],
+  [2,5,100],
+  [3,4,100]])
