@@ -27,7 +27,7 @@ function reverseShuffleMerge(s) {
     });
     return charList.join('');
 }
-
+//helper function 
 function buildDictionary(s) {
     let dict = {};
     for (let i = 0; i < s.length; i++) {
