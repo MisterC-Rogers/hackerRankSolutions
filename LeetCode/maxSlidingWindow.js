@@ -2,7 +2,7 @@ var maxSlidingWindow = function(nums, k) {
     const result = [];
     if (nums.length == 0) return result;
     const deque = [];
-    const add= n => {
+    const add = n => {
       while(deque.length > 0 &&  n > deque[deque.length - 1]){
         deque.pop();
       }
